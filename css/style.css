@@ -10,7 +10,7 @@
     outline: 0;
     text-decoration: none;
     list-style: none;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 :root {
       --color-primary: #800900;
@@ -38,7 +38,11 @@ body {
    color: var(--color-white);
 }
 
-
+h2 {
+    color: #CFE0C3;
+    font-weight: bolder;
+    font-style: italic;
+}
 
 nav {
     background-image: url(../images/bg.jpg);
@@ -113,11 +117,11 @@ nav {
       
   }
   .iron { grid-area: iron;
-
           width:230px ;
           height: 310px;
           border: 2px solid #800900;
           border-radius: 20px;
+        
 
 }
   .hulk { grid-area: hulk;
@@ -150,15 +154,28 @@ nav {
     border: 2px solid #800900;
     border-radius: 20px;
  }
+ .img {
+    width: 140px;
+    height: 140px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+ }
+
+ .img1 {
+    width: 140px;
+    height: 140px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+ }
 .btn {
     display: inline-block;
-    background-color: var(--color-white);
-    color: var(--color-black);
+    background-color: var(--color-primary);
+    color: var(--color-bg);
     padding: 1rem 2rem;
     border: 1px solid transparent;
     border-radius: 20px;
     font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1rem;
   
 }
 
